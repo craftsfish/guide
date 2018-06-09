@@ -1,0 +1,3 @@
+sudo apt-add-repository ppa:thopiekar/mt7601
+sudo apt-get update
+sudo apt-get install mt7601-sta-dkms

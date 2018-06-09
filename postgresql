@@ -1,0 +1,14 @@
+[Install]
+sudo apt-get install postgresql
+sudo su postgres
+psql
+create role {username} LOGIN CREATEDB PASSWORD '{password}';
+createdb -h 127.0.0.1 -U {username} {dbname}
+psql -h 127.0.0.1 -U {username} {dbname}
+sudo vim /etc/postgresql/9.5/main/postgresql.conf {
+u	listen_addresses = '*'
+}
+sudo vim /etc/postgresql/9.5/main/pg_hba.conf {
++	host    all             all             all          md5
+}
+sudo reboot
