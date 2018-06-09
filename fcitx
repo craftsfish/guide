@@ -1,0 +1,4 @@
+ii  fcitx-config-gtk                      0.4.8-3                                      i386         graphic Fcitx configuration tool - Gtk+ 3 version
+ii  fcitx-frontend-gtk3                   1:4.2.9.1-1ubuntu1.16.04.2                   i386         Flexible Input Method Framework - GTK+ 3 IM Module frontend
+ii  fcitx-googlepinyin:i386               0.1.6-3                                      i386         Fcitx wrapper for Google Pinyin IM engine
+ii  fcitx-ui-classic                      1:4.2.9.1-1ubuntu1.16.04.2                   i386         Flexible Input Method Framework - Classic user interface

@@ -1,0 +1,19 @@
+sudo vim /etc/grub.d/40_custom {
+    menuentry "mint"{
+    set isofile="linuxmint-18.3-xfce-32bit.iso"
+    loopback loop (hd0,1)$isofile
+    linux (loop)/casper/vmlinuz boot=casper iso-scan/filename=${isofile}
+    initrd (loop)/casper/initrd.lz
+    }
+
+}
+
+ls (hd0,3)/
+search --file --set=root --no-floppy /bootmgr
+
+#windows iso install
+set root=(hd0,3)
+insmod ntfs
+insmod fat
+ntldr /bootmgr
+boot
