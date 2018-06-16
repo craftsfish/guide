@@ -1,0 +1,8 @@
+[share]
+   comment = shared disk driver
+   browseable = yes
+   writeable = yes
+   guest ok = no
+   path = /home/lcj/share
+   create mask = 0664
+   directory mask = 0775
