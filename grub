@@ -20,4 +20,5 @@ boot
 
 sudo vim /etc/default/grub {
 	GRUB_SAVEDEFAULT=true
+	GRUB_DEFAULT=saved
 }
