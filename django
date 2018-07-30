@@ -1,1 +1,30 @@
+sudo -H pip install --upgrade pip
 sudo -H pip install django
+
+sudo apt-get install apache2
+sudo apt-get install libapache2-mod-wsgi
+
+sudo vim /etc/apache2/ports.conf {
+	Listen 8000
+}
+
+sudo vim /etc/apache2/apache2.conf {
+	Alias /static/ /home/lcj/ram/launchpad/static/
+	
+	<Directory /home/lcj/ram/launchpad/static/>
+	Require all granted
+	</Directory>
+
+	WSGIScriptAlias / /home/lcj/ram/launchpad/launchpad/wsgi.py
+	WSGIPythonPath /home/lcj/ram/launchpad
+	
+	<Directory /home/lcj/ram/launchpad/launchpad>
+	<Files wsgi.py>
+	Require all granted
+	</Files>
+	</Directory>
+}
+
+Error: [Mon Jul 30 10:51:02.949974 2018] [core:error] [pid 6389:tid 140391877670656] (13)Permission denied: [client 127.0.0.1:51326] AH00035: access to / denied (filesystem path '/home/lcj/ram') because search permissions are missing on a component of the path
+make sure all path to /home/lcj/ram with correct permission
+sudo chmod 755 /home/lcj
