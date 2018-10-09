@@ -1,7 +1,8 @@
 sudo -H pip install --upgrade pip
-sudo -H pip install django
+sudo -H pip install "django<2"
 sudo -H pip install enum34
 
+sudo apt-get install python-psycopg2
 sudo apt-get install apache2
 sudo apt-get install libapache2-mod-wsgi
 
@@ -25,7 +26,10 @@ sudo vim /etc/apache2/apache2.conf {
 	</Files>
 	</Directory>
 }
+#修改路径
 
 Error: [Mon Jul 30 10:51:02.949974 2018] [core:error] [pid 6389:tid 140391877670656] (13)Permission denied: [client 127.0.0.1:51326] AH00035: access to / denied (filesystem path '/home/lcj/ram') because search permissions are missing on a component of the path
 make sure all path to /home/lcj/ram with correct permission
 sudo chmod 755 /home/lcj
+
+./manage.py collectstatic #拷贝静态文件
