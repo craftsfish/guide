@@ -1,3 +1,35 @@
+构造搜索词 {
+	谁会买这款产品？ (消费者画像){
+		年龄
+		地域
+		性别
+		买给谁
+		使用场景
+		产品属性偏好(样式，容量，轻巧，便携，品牌，价格，服务，保温效果)
+	}
+	会用什么关键词搜索？
+	这些词里面，哪些我有相对竞争优势？ {
+		将现有排名最靠前的词组合
+	}
+}
+优化搜索词 { 词的搜索人气，我能拿到的份额，提高质量分的成本，提高多少份额，提高多少成交
+	提升还是换词？
+	提升坑位 {
+		当前哪一个词上升一个坑位的成本最低？上一个对手的月销售额越小越好
+		怎么判断产品质量得分？
+		我的产品对于某个搜索词的质量得分？
+	}
+	换词 {
+		当前可以牺牲的利润最小的关键词？剔除有成交的搜索词组合
+		比剔除词成交额大的词？搜索热度x转化率
+		可以提升流量的排名最靠前的词是什么？最有可能占据前五的关键词是什么？
+	}
+}
+
+我的竞争对手是谁？ {
+	同类目产品排行高于我一级的类似商品
+}
+
 who want to purchase this product? Actual requirement, no specific requirement, but has highly potential to be end user
 how to make sure the potential user can find us? which keyword can be used by potential user? through which way?
 how to make sure user will purchase our product? detail explanation of our product
@@ -5,12 +37,8 @@ why there's a return request?
 
 
 ================================================================================
-Most organizations like to think that they are reasonably effective at acquiring customers but for a startup or early stage business the ability to do this quickly or well enough may well be a matter of life and death (not to mention making sure they do so at a cost of acquisition that is lower than the revenues that are produced by the effort).
-
-At its most simple level, customer acquisition is the process of acquiring new customers or more effectively converting prospects into new customers. Naturally, the level of difficulty involved in acquiring new customers varies greatly according to the industry and specific business situation of an organization. For example, some businesses may be all about acquiring customers for an online business and using mostly online methods to do so, while others are more concerned with more traditional acquisition methods for a traditional “bricks and mortar” type business in which the new customer has to “walk through the door” in order to buy. However, in most circumstances, the process has many similarities in being mainly concerned with issues like:
-
-    using methods or approaches which reach as many customers as possible,
-    utilizing multiple channels to effect an ultimate acquisition,
+    using methods or approaches which reach as many customers as possible, (无法有效的知道客户是谁，精准营销是一个不断优化的过程)
+    utilizing multiple channels to effect an ultimate acquisition, ()
     effectively acquiring customers at the lowest possible cost,
     acquiring customers who will be repeat buyers.
 
@@ -66,29 +94,7 @@ People have a strong inclination to follow peer advice when they can get it – 
 
 If your user acquisition strategy is not increasingly scalable (or extendable to many more customers than your initial target set at a similar or even lesser cost) then you’ll have to keep exerting considerable effort and spend more money than you might like in order to acquire customers at scale. A scalable user acquisition strategy therefore (such as using targeted content marketing methods and SEO/SEM techniques) is one of the best ways that you can generate perpetual traffic and acquire users in the most cost effective way possible at small, medium and large customer population levels.
 
-
-
-
-
-
-
-
-
-[类目]
-餐饮具	餐具	饭盒/保温桶/保温提锅
-餐饮具	餐具	筷子
-餐饮具	杯子/水杯/水壶	随手杯
-餐饮具	杯子/水杯/水壶	玻璃杯
-餐饮具	杯子/水杯/水壶	保温杯
-餐饮具	杯子/水杯/水壶	保温壶
-餐饮具	保鲜容器/保鲜器皿	保鲜盒
-厨房/烹饪用具	烹饪用具	炖锅/炖煲/汤煲
-厨房/烹饪用具	厨用小工具/厨房储物	密封罐
-
-市场->搜索词分析->搜索词查询->关键词->相关搜索词->复制分析
-
-
-凡冠 70
-腾复 129
-
-市场->商品店铺榜->
+customer {
+	individual
+	organization
+}
