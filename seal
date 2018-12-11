@@ -1,0 +1,11 @@
+#!/bin/bash
+
+targets="bin work .bashrc .log .lcj.pem .vimrc .url"
+dest=/tmp/$BASHPID.seal
+mkdir $dest
+cd $dest
+for i in $targets; do
+	cp -fr $HOME/$i .
+done
+tar -czf /$HOME/seal.tar.gz .
+rm -fr $dest
