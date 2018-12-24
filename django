@@ -19,6 +19,7 @@ sudo vim /etc/apache2/apache2.conf {
 
 	WSGIScriptAlias / /home/lcj/ram/launchpad/launchpad/wsgi.py
 	WSGIPythonPath /home/lcj/ram/launchpad
+	WSGIApplicationGroup %{GLOBAL}
 	
 	<Directory /home/lcj/ram/launchpad/launchpad>
 	<Files wsgi.py>
