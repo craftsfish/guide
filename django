@@ -2,9 +2,7 @@ sudo -H pip install --upgrade pip
 sudo -H pip install "django<2"
 sudo -H pip install enum34
 
-sudo apt-get install python-psycopg2
-sudo apt-get install apache2
-sudo apt-get install libapache2-mod-wsgi
+sudo apt-get install python-psycopg2 apache2 libapache2-mod-wsgi
 
 sudo vim /etc/apache2/ports.conf {
 	Listen 8000

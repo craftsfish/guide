@@ -5,6 +5,8 @@ psql
 create role {username} LOGIN CREATEDB PASSWORD '{password}';
 createdb -h 127.0.0.1 -U {username} {dbname}
 psql -h 127.0.0.1 -U {username} {dbname}
+
+#incase of using django, accessing only from local server, following modification is not required.
 sudo vim /etc/postgresql/9.5/main/postgresql.conf {
 u	listen_addresses = '*'
 }
