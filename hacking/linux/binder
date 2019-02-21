@@ -1,2 +1,2 @@
-binder_alloc: 每个进程一个，用于管理进程的binder_buffer
+binder_alloc: 每个进程一个，用于管理进程的binder_buffer, 所有的binder_buffer的data空间来自于对应的一片vma，由binder_alloc统一管理分配和释放
 binder_buffer: 其他进程发送过来的数据直接通过binder驱动保存到这里？
