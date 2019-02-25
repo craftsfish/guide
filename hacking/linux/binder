@@ -7,6 +7,5 @@ binder_ref: {
 	通过binder_node指针区分, 存储在proc->refs_by_node, 如果没有，创建binder_ref节点并分配desc/handle, binder_inc_ref_for_node
 	通过desc区分，该handle应该是进程内唯一, 0保留给context_manager？ binder_get_ref_olocked,
 	由此判断，先有node，然后通过binder_inc_ref_for_node生成ref
-}
-
-本进程调用binder_inc_ref_for_node来为目标进程创建一个本地node的ref
+} 取得node指针的进程调用binder_inc_ref_for_node来为目标进程创建一个ref
+猜测: server生成自己的node,为context_manager创建一个ref，context_manager收到client请求后，为client创建一个ref
