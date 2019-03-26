@@ -1,5 +1,5 @@
 css, cgroup sussystem state
 
-一个hierarchy代表一个cgroup_root, 多个hierarchy可以并存，但是subsystem只能同时属于某个hierarchy
-cgroup表示一个目录
-一个process可以隶属于多个cgroup, 组成一个css_set, 用于描述task的资源组合
+cgroup_root，通过mount命令挂载对应的目录，可以有多个存在，但是subsystem只能同时属于某个cgroup_root
+cgroup表示一个目录，包括根目录
+一个process在每个cgroup_root内只能出现有且仅有一次。有一个css_set, 用于描述task的资源组合
