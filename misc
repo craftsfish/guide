@@ -1,1 +1,5 @@
 SI3US-989291-62604
+sudo update-alternatives --config editor
+
+cp ms/*.ttf
+sudo fc-cache  -fv
