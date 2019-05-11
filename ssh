@@ -1,0 +1,2 @@
+ssh-keygen
+ssh-copy-id -i ~/.ssh/id_rsa.pub lcj@192.168.1.199
