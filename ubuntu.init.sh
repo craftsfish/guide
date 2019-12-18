@@ -13,7 +13,7 @@ sudo apt install libncurses-dev
 sudo apt install cscope
 mkdir -p $HOME/.vim/plugin
 cd $HOME/.vim/plugin
-wget http://cscope.sourceforge.net/cscope_maps.vim
+wget https://raw.githubusercontent.com/craftsfish/guide/master/cscope_maps.vim
 cd -
 
 #lcj     ALL=(ALL:ALL) NOPASSWD:ALL
