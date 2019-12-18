@@ -16,4 +16,9 @@ cd $HOME/.vim/plugin
 wget https://raw.githubusercontent.com/craftsfish/guide/master/cscope_maps.vim
 cd -
 
+#goldendict
+sudo apt install goldendict
+#https://xinyo.org/archives/61412/
+#http://download.huzheng.org/zh_CN/
+
 #lcj     ALL=(ALL:ALL) NOPASSWD:ALL
