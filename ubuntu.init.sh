@@ -8,6 +8,12 @@ sudo apt install fcitx-googlepinyin
 
 sudo apt install build-essential
 sudo apt install libncurses-dev
+
+#cscope
 sudo apt install cscope
+mkdir -p $HOME/.vim/plugin
+cd $HOME/.vim/plugin
+wget http://cscope.sourceforge.net/cscope_maps.vim
+cd -
 
 #lcj     ALL=(ALL:ALL) NOPASSWD:ALL
