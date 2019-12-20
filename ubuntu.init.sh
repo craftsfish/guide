@@ -22,3 +22,8 @@ sudo apt install goldendict
 #http://download.huzheng.org/zh_CN/
 
 #lcj     ALL=(ALL:ALL) NOPASSWD:ALL
+
+echo "set hlsearch
+set tabstop=4
+set ffs=unix
+set number" >> $HOME/.vimrc
