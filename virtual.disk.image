@@ -1,0 +1,6 @@
+dd if=/dev/zero of=loopbackfile.img bs=100M count=1
+sudo losetup -fP loopbackfile.img
+sudo fdisk /dev/loop0
+sudo mkfs.ext4 /dev/loop0p1
+sudo losetup -D
+sudo losetup -fP loopbackfile.img
