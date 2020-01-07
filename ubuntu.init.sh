@@ -16,6 +16,8 @@ cd $HOME/.vim/plugin
 wget https://raw.githubusercontent.com/craftsfish/guide/master/cscope_maps.vim
 cd -
 
+sudo update-alternatives --config editor
+
 #goldendict
 sudo apt install goldendict
 #https://xinyo.org/archives/61412/
@@ -27,3 +29,5 @@ echo "set hlsearch
 set tabstop=4
 set ffs=unix
 set number" >> $HOME/.vimrc
+
+sudo apt install samba
