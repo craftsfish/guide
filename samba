@@ -1,3 +1,5 @@
+sudo netstat -ntlp | grep smbd
+
 [share]
    comment = shared disk driver
    browseable = yes

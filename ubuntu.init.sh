@@ -31,3 +31,5 @@ set ffs=unix
 set number" >> $HOME/.vimrc
 
 sudo apt install samba
+
+#SI v3.5 SI3US-989291-62604
