@@ -6,6 +6,8 @@ sudo apt install fcitx-googlepinyin
 #sudo -H pip install django
 #umask 002
 
+sudo apt install fonts-wqy-microhei
+
 sudo apt install build-essential
 sudo apt install libncurses-dev
 
