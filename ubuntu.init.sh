@@ -33,3 +33,6 @@ set number" >> $HOME/.vimrc
 sudo apt install samba
 
 #SI v3.5 SI3US-989291-62604
+
+#sudo systemctl set-default multi-user.target
+#sudo systemctl set-default graphical.target
