@@ -38,3 +38,7 @@ sudo apt install samba
 
 #sudo systemctl set-default multi-user.target
 #sudo systemctl set-default graphical.target
+
+#sudo apt install xrdp
+#sudo systemctl status xrdp
+#sudo apt install rdesktop
