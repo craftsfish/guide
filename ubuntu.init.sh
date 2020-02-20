@@ -42,3 +42,5 @@ sudo apt install samba
 #sudo apt install xrdp
 #sudo systemctl status xrdp
 #sudo apt install rdesktop
+
+#sudo mount.cifs -o user=xxx,password=xxx,uid=xxx,gid=xxx //192.168.xxx.xxx/share $HOME/share
