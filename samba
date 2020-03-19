@@ -1,0 +1,20 @@
+sudo netstat -ntlp | grep smbd
+
+[share]
+   comment = shared disk driver
+   browseable = yes
+   writeable = yes
+   guest ok = no
+   path = /home/lcj/share
+   create mask = 0664
+   directory mask = 0775
+   valid users = lcj
+
+[share.lsz]
+   comment = shared disk driver
+   browseable = yes
+   writeable = yes
+   guest ok = no
+   path = /home/lcj/share.lsz
+   create mask = 0664
+   directory mask = 0775
