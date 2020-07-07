@@ -1,0 +1,4 @@
+https://help.ubuntu.com/community/NetworkConfigurationCommandLine/Automatic
+ip address
+ip route
+sudo dhclient eth0
