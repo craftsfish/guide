@@ -1,5 +1,5 @@
 #!/bin/bash
-git config --global user.email canjiang.lu@outlook.com
+git config --global user.email canjiang.lu.x@gmail.com
 git config --global user.name "Canjiang Lu"
 git config --global credential.helper store
 git config --global push.default simple

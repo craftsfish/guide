@@ -1,0 +1,4 @@
+sudo minicom -s
+115200 8N1
+Hardware Flow Control : No
+Software Flow Control : No
