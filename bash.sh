@@ -13,3 +13,22 @@ s) echo $file
 *) cat $file | sed -n '/^[0-9a-z]\+).*$/'p #reserved, don't modify
 	;;
 esac
+
+var_key="var.key.helloworld"
+
+grep key << my_doc
+	${var_key}
+	key.helloworld
+	invalid
+my_doc
+
+grep key <<- 			"my_doc"
+	${var_key}
+	key.helloworld
+	invalid
+my_doc
+
+grep key <<< "${var_key}
+ssdfs
+kkk
+new.key"
