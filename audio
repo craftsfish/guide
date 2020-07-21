@@ -1,0 +1,3 @@
+sudo apt install faad
+sudo apt install lame
+ls *.m4a | xargs -n 1 -I {} x2mp3 {}
