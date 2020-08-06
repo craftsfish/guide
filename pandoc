@@ -1,0 +1,2 @@
+sudo apt install pandoc
+r="$BASHPID-$RANDOM"; echo $r; pandoc -t html debug.md -o /tmp/$r.html; firefox /tmp/$r.html; rm /tmp/$r.html
