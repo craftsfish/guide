@@ -4,3 +4,4 @@ git config --global user.name "Canjiang Lu"
 git config --global credential.helper store
 git config --global push.default simple
 #git clone ssh://lcj@127.0.0.1:2222/xxx
+#git config --global http.sslverify false
