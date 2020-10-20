@@ -1,0 +1,5 @@
+sudo apt install python3-dev
+sudo apt install cmake
+pip install scikit-build
+pip install opencv-python
+pip install opencv-contrib-python
