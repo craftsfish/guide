@@ -2,10 +2,13 @@
 sudo apt install vim git numlockx
 sudo update-alternatives --config editor
 sudo apt install fonts-wqy-microhei
+
 echo "set hlsearch
 set tabstop=4
 set ffs=unix
 set number" >> $HOME/.vimrc
+
+echo 'export PATH=$PATH:$HOME/.bin' >> $HOME/.bashrc
 
 #lcj     ALL=(ALL:ALL) NOPASSWD:ALL
 #sudo mount.cifs -o user=lcj,password=123456,uid=lcj,gid=lcj //192.168.1.1/share $HOME/share
@@ -34,3 +37,6 @@ set number" >> $HOME/.vimrc
 #sudo apt install xrdp
 #sudo systemctl status xrdp
 #sudo apt install rdesktop
+
+#cp ms/*.ttf
+#sudo fc-cache  -fv
