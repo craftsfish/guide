@@ -1,4 +1,5 @@
 sudo mount.cifs -o user=lcj,password=123456,uid=lcj,gid=lcj,vers=1.0 //127.0.0.1/share /media/lcj/
+sudo mount.cifs -o user=lcj,password=123456,uid=lcj,gid=lcj,vers=1.0,port=445 //127.0.0.1/share ./Pictures/
 //10.0.2.2/share /home/lcj/work/ubuntu/linux cifs user=lcj,password=123456,uid=lcj,gid=lcj,vers=1.0 0 0
 sudo netstat -ntlp | grep smbd
 smbpasswd -a lcj
