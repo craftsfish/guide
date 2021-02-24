@@ -1,0 +1,7 @@
+gnuplot, R
+
+http://www.gnuplot.info/
+https://www.r-project.org/
+
+sudo apt install r-base-core
+sudo apt install gnuplot gnuplot-doc
