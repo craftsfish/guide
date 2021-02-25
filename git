@@ -1,9 +1,11 @@
 #!/bin/bash
 git config --global user.email craftsfish@163.com
 git config --global user.name "Canjiang Lu"
+git config --global format.signoff true
 git config --global credential.helper store
 git config --global push.default simple
 git config --global http.sslverify false
+
 #git clone ssh://lcj@127.0.0.1:2222/xxx
 #git config --global http.followRedirects true
 
