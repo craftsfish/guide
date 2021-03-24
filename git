@@ -10,3 +10,6 @@ git config --global http.sslverify false
 #git remote add wq https://git.kernel.org/pub/scm/linux/kernel/git/tj/wq.git
 #git fetch wq
 #git branch --set-upstream-to wq/master
+
+
+#https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
