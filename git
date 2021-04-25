@@ -13,3 +13,8 @@ git config --global http.sslverify false
 
 
 #https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
+
+#for kernel development only
+git config --global core.abbrev 12
+git config --global pretty.fixes 'Fixes: %h ("%s")'
+#git log -1 --pretty=fixes HEAD
