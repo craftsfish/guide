@@ -22,3 +22,7 @@ git config --global pretty.fixes 'Fixes: %h ("%s")'
 
 
 #https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
+
+#diagnose
+#GIT_TRACE_PACKET=1 GIT_TRACE=1 GIT_CURL_VERBOSE=1  git push
+#GIT_TRACE_PACKET=1 GIT_TRACE=1 GIT_CURL_VERBOSE=1  git pull --rebase
