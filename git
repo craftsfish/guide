@@ -6,6 +6,11 @@ git config --global credential.helper store
 git config --global push.default simple
 git config --global http.sslverify false
 
+#for kernel development only
+git config --global core.abbrev 12
+git config --global pretty.fixes 'Fixes: %h ("%s")'
+#git log -1 --pretty=fixes HEAD
+
 #git clone ssh://lcj@127.0.0.1:2222/xxx
 #git config --global http.followRedirects true
 
@@ -15,8 +20,3 @@ git config --global http.sslverify false
 
 
 #https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
-
-#for kernel development only
-git config --global core.abbrev 12
-git config --global pretty.fixes 'Fixes: %h ("%s")'
-#git log -1 --pretty=fixes HEAD
