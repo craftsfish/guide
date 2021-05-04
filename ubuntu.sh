@@ -6,6 +6,8 @@ sudo apt install fonts-wqy-microhei
 echo "set hlsearch
 set tabstop=4
 set ffs=unix
+set textwidth=75
+set wrap
 set number" >> $HOME/.vimrc
 
 echo 'export PATH=$PATH:$HOME/.bin' >> $HOME/.bashrc
