@@ -8,6 +8,7 @@ set tabstop=4
 set ffs=unix
 set textwidth=75
 set wrap
+set noeol
 set number" >> $HOME/.vimrc
 
 echo 'export PATH=$PATH:$HOME/.bin' >> $HOME/.bashrc
