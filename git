@@ -5,8 +5,8 @@ git config --global format.signoff true
 git config --global credential.helper store
 git config --global push.default simple
 #git config --global http.sslverify false
-#git config --global http.proxy http://127.0.0.1:43943
-#git config --global https.proxy https://127.0.0.1:43943
+git config --global http.proxy http://127.0.0.1:41791
+git config --global https.proxy https://127.0.0.1:41791
 
 #for kernel development only
 git config --global core.abbrev 12
