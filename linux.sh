@@ -8,6 +8,6 @@
 sudo apt install cscope
 mkdir -p $HOME/.vim/plugin
 cp cscope_maps.vim $HOME/.vim/plugin/
-sudo usermod -a -G vboxsf lcj
+#sudo usermod -a -G vboxsf lcj
 #git remote add kvm https://git.kernel.org/pub/scm/virt/kvm/kvm.git
 #git remote add torvalds https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git

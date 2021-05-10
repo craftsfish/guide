@@ -1,0 +1,21 @@
+sudo apt install faad
+sudo apt install lame
+ls *.m4a | xargs -n 1 -I {} x2mp3 {}
+
+
+mencoder -oac mp3lame -ovc copy -of rawaudio 处理.mp4 -o result.mp3
+
+
+sudo apt install kazam
+sudo apt install mp3splt
+
+
+sudo vim /etc/pulse/default.pa {
+#Active Noise Removal
+.ifexists module-echo-cancel.so
+load-module module-echo-cancel aec_method=webrtc source_name=mic source_properties=device.description=MicHD
+set-default-source "mic"
+.endif
+}
+
+sudo apt install gnome-sound-recorder 
