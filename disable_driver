@@ -1,8 +1,10 @@
 #sudo modprobe -r realtek
 #sudo modprobe -r r8169
 
-blacklist realtek
-blacklist r8169
+sudo vim /etc/modprobe.d/blacklist.conf {
+	blacklist realtek
+	blacklist r8169
+}
 #options realtek modeset=0
 
 重新生成initramfs
