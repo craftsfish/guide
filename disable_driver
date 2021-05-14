@@ -1,0 +1,9 @@
+#sudo modprobe -r realtek
+#sudo modprobe -r r8169
+
+blacklist realtek
+blacklist r8169
+#options realtek modeset=0
+
+重新生成initramfs
+sudo update-initramfs -u
