@@ -16,18 +16,22 @@ esac
 
 var_key="var.key.helloworld"
 
+#var_key extended
 grep key << my_doc
 	${var_key}
 	key.helloworld
 	invalid
 my_doc
 
+#var_key not extended
+#- means strip leading tab characters
 grep key <<- 			"my_doc"
 	${var_key}
 	key.helloworld
 	invalid
 my_doc
 
+#single quick extension
 grep key <<< "${var_key}
 ssdfs
 kkk
