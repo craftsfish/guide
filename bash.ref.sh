@@ -36,3 +36,11 @@ grep key <<< "${var_key}
 ssdfs
 kkk
 new.key"
+
+#iter current directory with space supported
+IFS="
+"
+for i in $(ls); do
+	echo $i
+done
+unset IFS
