@@ -4,6 +4,11 @@ sudo mount.cifs -o user=lcj,password=123456,uid=lcj,gid=lcj,vers=1.0,port=445 //
 sudo netstat -ntlp | grep smbd
 smbpasswd -a lcj
 
+vim /etc/samba/smb.conf {
+[global]
+   smb ports = 1445 1139
+}
+
 [share]
    comment = shared disk driver
    browseable = yes
