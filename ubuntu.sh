@@ -44,3 +44,7 @@ set number" >> $HOME/.vimrc
 #cp ms/*.ttf
 #sudo fc-cache  -fv
 #sudo apt install freerdp2-x11
+
+#sudo vim /etc/systemd/resolved.conf {
+#    Domains=xxx
+#}
