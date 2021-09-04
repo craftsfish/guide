@@ -9,6 +9,8 @@ mencoder -oac mp3lame -ovc copy -of rawaudio 处理.mp4 -o result.mp3
 sudo apt install kazam
 sudo apt install mp3splt
 
+#time format minute.second.hundredth
+mp3splt album.mp3 54.32.19 67.32 -o out
 
 sudo vim /etc/pulse/default.pa {
 #Active Noise Removal
