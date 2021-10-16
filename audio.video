@@ -21,3 +21,14 @@ set-default-source "mic"
 }
 
 sudo apt install gnome-sound-recorder 
+
+
+[Audio Stream]
+http://stream.amellus.com:8000/KDDL.mp3
+http://stream.amellus.com:8000/KUGO-1.mp3
+http://stream.amellus.com:8000/KUGO-2.mp3 (Germen)
+http://stream.amellus.com:8000/KUGO-3.mp3 (Japanese)
+http://stream.amellus.com:8000/KQNA.mp3
+http://stream.amellus.com:8000/KPKR.mp3
+http://stream.amellus.com:8000/KXBB.mp3
+http://stream.amellus.com:8000/eaglerocks.mp3
