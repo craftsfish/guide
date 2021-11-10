@@ -22,6 +22,7 @@ set-default-source "mic"
 
 sudo apt install gnome-sound-recorder 
 
+sudo apt install openshot
 
 [Audio Stream]
 http://stream.amellus.com:8000/KDDL.mp3
